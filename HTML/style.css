@@ -1,0 +1,107 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+ul li a {
+    list-style: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.titre {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    font-size: 70px;
+    margin-bottom: 20%;
+}
+
+.aperatif {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.aperatif2 {
+   position: absolute;
+   top: 20%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+   font-weight:600px;
+   font-size: 50px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   padding-top: 500px ;
+   padding-left:250px;
+   text-decoration: underline;
+   color: rgb(255, 157, 0);
+}
+
+/* Des entrées raffraichissantes */
+
+.plats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+text-align: center;
+}
+
+.plats2 {
+    font-weight:600px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left :500px ;
+    text-decoration:underline;
+    color:rgb(255 , 157 , 0);
+
+}
+
+/*Des plats qui deculperont vos papilles*/
+
+.text{
+     width: 170px;
+      text-align: justify;
+}
+
+.desserts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.desserts2 {
+    font-weight: 500px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration:underline;
+    color:rgb(255 , 157 , 0);
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*Des desserts qui vous ferez voyager*/
